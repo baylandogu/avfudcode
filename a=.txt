@@ -1,0 +1,16 @@
+
+
+#!/usr/bin/env python
+
+>>>a="CODE HERE ENTER"
+----------------------------
+>>>b='' (ENTER)
+
+>>>for i in a:
+       b += chr(ord(i) ^ 19)
+>>>b
+
+>>>>>>>>>>>>>>>>>>KODE>>>>>>>>>>>>>>>>>>
+
+
+gcc "payload-name.c" -o evil -fno-stack-protector -z execstack
